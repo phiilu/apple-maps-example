@@ -1,0 +1,23 @@
+{
+  "name": "apple-maps-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "parcel src/index.html; parcel watch src/",
+    "start": "netlify dev"
+  },
+  "keywords": [],
+  "author": "Florian Kapfenberger <florian@kapfenberger.me>",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "netlify-lambda": "^2.0.1",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}

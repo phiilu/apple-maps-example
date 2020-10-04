@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  functions = "src/functions"
+  NODE_ENV = "12"
+  publish = "/dist"
+
+[dev]
+  port = 18080
+  publish = "/dist"
+  command = "npm run dev"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
