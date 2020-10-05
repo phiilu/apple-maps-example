@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "parcel src/index.html; parcel watch src/",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && parcel build src/index.html",
     "start": "netlify dev"
   },
   "keywords": [],

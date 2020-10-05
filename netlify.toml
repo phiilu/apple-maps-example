@@ -9,6 +9,10 @@
   publish = "/dist"
   command = "npm run dev"
 
+[production]
+  publish = "/dist"
+  command = "npm run build"
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
